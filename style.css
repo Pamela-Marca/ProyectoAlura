@@ -145,7 +145,7 @@ section.boton{
     position: absolute;
     margin: auto;
     width: 90%;
-    top: 80%;
+    top: 85%;
 
 }
 
@@ -183,6 +183,11 @@ section.boton{
     .texto2{
         position: relative;
         margin: 10% auto;
+        font-size: 2em;
+        line-height: normal;
+    }
+    section.boton{
+        position: relative;
     }
 }
 @media screen and (max-width:400px) {
