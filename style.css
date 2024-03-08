@@ -99,8 +99,8 @@ section.botones button{
     position: relative;
     width: 28%;
     text-align: center;
-    margin: 8px auto;
-    top:-2%;
+    margin: -50px auto 1% 8%;
+    top:-47%;
     left: 10%;
     color: #0A3871;
     line-height: 29px;
@@ -109,10 +109,11 @@ section.botones button{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding: 10% 0 15% 0;
 }
 
 .imagen{
-    margin: auto;
+    margin: 5% auto;
     width:60%;
     box-sizing: border-box;
 }
@@ -120,19 +121,20 @@ section.botones button{
 .texto2{
     width: 85%;
     text-align: center;
-    height: 13%;
     gap: 8px;
-    margin: auto;
+    margin:5% auto;
+    margin-top: 0;
+    line-height: 16px;
 }
 
 h4{
-    font-size: 1em;
+    font-size: 16px;
     height: 48%;
 
 }
 
 p{
-    padding-top: 2%; ;
+    padding-top: 8px; ;
     font-size: 1em;
     height: 48%;
 
@@ -140,13 +142,14 @@ p{
 }
 
 section.boton{
+    position: absolute;
     margin: auto;
     width: 90%;
+    top: 80%;
 
 }
 
 .copiar{
-    position: relative;
     border-radius: 24px;
     background: none;
     color: #0A3871;
@@ -157,11 +160,15 @@ section.boton{
     font-family: "Inter", sans-serif;
 }
 @media screen and (max-width:768px){
+    header{
+        margin: 2% 0 5% 0;
+    }
     .cuadro1{
         left:3%;
-        width:100%;
+        width:98%;
     }
     .cuadro2{
+        margin: auto;
         position: relative;
         height: 30%;
         width: 90%;
@@ -173,8 +180,18 @@ section.boton{
         visibility: collapse;
         position: fixed;
     }
-    .texto2, .copiar{
+    .texto2{
         position: relative;
+        margin: 10% auto;
     }
+}
+@media screen and (max-width:400px) {
+    section.botones button{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        margin: 2% auto;
+    }
+    
 }
 
