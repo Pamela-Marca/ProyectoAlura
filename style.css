@@ -158,12 +158,15 @@ section.boton{
     font-family: "Inter", sans-serif;
 }
 @media screen and (max-width:768px){
-    .Logo{
+    header{
         margin: 2% 0 5% 0;        
     }
     .cuadro1{
         left:3%;
         width:98%;
+    }
+    .texto1{
+        height: 200px;
     }
     .cuadro2{
         position: relative;
