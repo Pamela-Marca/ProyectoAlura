@@ -109,7 +109,7 @@ section.botones button{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 10% 0 15% 0;
+    padding: 32px;
 }
 
 .imagen{
@@ -121,21 +121,19 @@ section.botones button{
 .texto2{
     width: 85%;
     text-align: center;
-    gap: 8px;
-    margin:5% auto;
     margin-top: 0;
-    line-height: 16px;
+    line-height: 28.8px;
 }
 
 h4{
-    font-size: 1.4em;
+    font-size: 24PX;
     height: 48%;
 
 }
 
 p{
     padding-top: 8px;
-    font-size: 1em;
+    font-size: 16PX;
     height: 48%;
 
 
@@ -160,21 +158,21 @@ section.boton{
     font-family: "Inter", sans-serif;
 }
 @media screen and (max-width:768px){
-    header{
-        margin: 2% 0 5% 0;
+    .Logo{
+        margin: 2% 0 5% 0;        
     }
     .cuadro1{
         left:3%;
         width:98%;
     }
     .cuadro2{
-        margin: auto;
         position: relative;
         height: 30%;
         width: 90%;
         display: block;
         left:auto;
-        padding: 10% 0;
+        margin: 4%
+
         }
     .imagen{
         visibility: collapse;
@@ -182,20 +180,24 @@ section.boton{
     }
     .texto2{
         position: relative;
-        margin: 10% auto;
         font-size: 2em;
-        line-height: normal;
+        line-height: 28.5px;
+        width: 100%;
     }
     section.boton{
-        position: relative;
+        position: flex;
+        visibility:collapse;
     }
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     section.botones button{
         display: flex;
         width: 80%;
         justify-content: center;
         margin: 2% auto;
+    }
+    .texto2{
+        font-size: 1em;
     }
     
 }
